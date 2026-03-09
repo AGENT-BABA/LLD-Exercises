@@ -9,7 +9,6 @@ public class RealReport implements Report {
     private final String reportId;
     private final String title;
     private final String classification;
-    private String content;
 
     public RealReport(String reportId, String title, String classification) {
         this.reportId = reportId;
